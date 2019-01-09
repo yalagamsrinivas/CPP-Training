@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Day-1">
+      <UniqueIdentifier>{237a6377-b7eb-4715-800f-ee3e51d202d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Day-1\FunctionPassType">
+      <UniqueIdentifier>{98c52a69-2fc6-4d09-a86c-16b1c479b3bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Day-1\MemoryManagement">
+      <UniqueIdentifier>{54171d8b-3349-41c7-abb8-884fac253b28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Day-1\PreRequisits">
+      <UniqueIdentifier>{b6b628fb-688e-4985-a5d9-bc7b3c91e21c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Day-2">
+      <UniqueIdentifier>{041d0571-fcf6-41e4-b88f-cc06f9dbe59d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Day-3">
+      <UniqueIdentifier>{831560f9-dc62-490b-88dd-e9774560e959}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Day-3\Inheritance">
+      <UniqueIdentifier>{7b07ea28-f7c5-4020-996f-3c0b7aa7f2ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Day-3\Polymorphism">
+      <UniqueIdentifier>{39839c42-d48a-41e2-a925-f5818a1598c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Day-4">
+      <UniqueIdentifier>{93f936fa-2976-4418-b082-6a1baa38cac6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Day-4\Templates">
+      <UniqueIdentifier>{ded304eb-92fd-4af5-8f2d-caef09706e4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Day-4\ExceptionHandling">
+      <UniqueIdentifier>{4207f96d-edc5-4e61-9329-2784d4d4c8eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Day-4\STL">
+      <UniqueIdentifier>{a2d5e1d3-150b-4b18-b43c-1bbc97b7311e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Day-4\STL\Containers">
+      <UniqueIdentifier>{7259e37d-d9f0-458b-b2d4-d98c810c481f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Day-4\STL\Algorithms">
+      <UniqueIdentifier>{fc38447b-cf75-4f6c-a543-a807c4cecca1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Day-4\LambdaFunctions">
+      <UniqueIdentifier>{e49d40c0-37c5-435b-a55e-f51d3b7cc0a5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="RandLValue.cpp">
+      <Filter>Source Files\Day-1\PreRequisits</Filter>
+    </ClCompile>
+    <ClCompile Include="PassByPointer.cpp">
+      <Filter>Source Files\Day-1\FunctionPassType</Filter>
+    </ClCompile>
+    <ClCompile Include="PassByReference.cpp">
+      <Filter>Source Files\Day-1\FunctionPassType</Filter>
+    </ClCompile>
+    <ClCompile Include="PassByReferenceReturn.cpp">
+      <Filter>Source Files\Day-1\FunctionPassType</Filter>
+    </ClCompile>
+    <ClCompile Include="PassByValue.cpp">
+      <Filter>Source Files\Day-1\FunctionPassType</Filter>
+    </ClCompile>
+    <ClCompile Include="ArrayMemory.cpp">
+      <Filter>Source Files\Day-1\MemoryManagement</Filter>
+    </ClCompile>
+    <ClCompile Include="TestReferenceVsPointers.cpp">
+      <Filter>Source Files\Day-1\PreRequisits</Filter>
+    </ClCompile>
+    <ClCompile Include="InheritanceWithAccessSpecifiers.cpp">
+      <Filter>Source Files\Day-3\Inheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeOfConstructors.cpp">
+      <Filter>Source Files\Day-2</Filter>
+    </ClCompile>
+    <ClCompile Include="LocalClass.cpp">
+      <Filter>Source Files\Day-2</Filter>
+    </ClCompile>
+    <ClCompile Include="AnotherFriendFunction.cpp">
+      <Filter>Source Files\Day-2</Filter>
+    </ClCompile>
+    <ClCompile Include="FriendClass.cpp">
+      <Filter>Source Files\Day-2</Filter>
+    </ClCompile>
+    <ClCompile Include="DeclaringClass.cpp">
+      <Filter>Source Files\Day-2</Filter>
+    </ClCompile>
+    <ClCompile Include="InlineFunction.cpp">
+      <Filter>Source Files\Day-2</Filter>
+    </ClCompile>
+    <ClCompile Include="FunctionConstParameter.cpp">
+      <Filter>Source Files\Day-1\FunctionPassType</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstFunctionParam.cpp">
+      <Filter>Source Files\Day-1\FunctionPassType</Filter>
+    </ClCompile>
+    <ClCompile Include="SizeOfClass.cpp">
+      <Filter>Source Files\Day-2</Filter>
+    </ClCompile>
+    <ClCompile Include="FriendFunction.cpp">
+      <Filter>Source Files\Day-2</Filter>
+    </ClCompile>
+    <ClCompile Include="StaticDataMembers.cpp">
+      <Filter>Source Files\Day-2</Filter>
+    </ClCompile>
+    <ClCompile Include="MultipleInheritance.cpp">
+      <Filter>Source Files\Day-3\Inheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiLevelInheritance.cpp">
+      <Filter>Source Files\Day-3\Inheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="DiamondProblem.cpp">
+      <Filter>Source Files\Day-3\Inheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="FunctionOverloading.cpp">
+      <Filter>Source Files\Day-3\Polymorphism</Filter>
+    </ClCompile>
+    <ClCompile Include="OperatorOverloading.cpp">
+      <Filter>Source Files\Day-3\Polymorphism</Filter>
+    </ClCompile>
+    <ClCompile Include="VirtualFunctions.cpp">
+      <Filter>Source Files\Day-3\Polymorphism</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstructorCall.cpp">
+      <Filter>Source Files\Day-3\Inheritance</Filter>
+    </ClCompile>
+    <ClCompile Include="PureVirtualFunctionscpp.cpp">
+      <Filter>Source Files\Day-3\Polymorphism</Filter>
+    </ClCompile>
+    <ClCompile Include="Templates.cpp">
+      <Filter>Source Files\Day-4\Templates</Filter>
+    </ClCompile>
+    <ClCompile Include="MultipleTypeTemplates.cpp">
+      <Filter>Source Files\Day-4\Templates</Filter>
+    </ClCompile>
+    <ClCompile Include="OverloadingFunctionTemplate.cpp">
+      <Filter>Source Files\Day-4\Templates</Filter>
+    </ClCompile>
+    <ClCompile Include="BubbleSort.cpp">
+      <Filter>Source Files\Day-4\Templates</Filter>
+    </ClCompile>
+    <ClCompile Include="GenericClasses.cpp">
+      <Filter>Source Files\Day-4\Templates</Filter>
+    </ClCompile>
+    <ClCompile Include="ExceptionHandling.cpp">
+      <Filter>Source Files\Day-4\ExceptionHandling</Filter>
+    </ClCompile>
+    <ClCompile Include="ListClasses.cpp">
+      <Filter>Source Files\Day-4\STL\Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="Lists.cpp">
+      <Filter>Source Files\Day-4\STL\Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="Vectors.cpp">
+      <Filter>Source Files\Day-4\STL\Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="Maps.cpp">
+      <Filter>Source Files\Day-4\STL\Containers</Filter>
+    </ClCompile>
+    <ClCompile Include="Count.cpp">
+      <Filter>Source Files\Day-4\STL\Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="CountIf.cpp">
+      <Filter>Source Files\Day-4\STL\Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="RemovingAndReplacing.cpp">
+      <Filter>Source Files\Day-4\STL\Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformingASequence.cpp">
+      <Filter>Source Files\Day-4\STL\Algorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="LambdaExpression.cpp">
+      <Filter>Source Files\Day-4\LambdaFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="Lamda.cpp">
+      <Filter>Source Files\Day-4\LambdaFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="Test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

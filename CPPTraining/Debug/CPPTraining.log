@@ -1,0 +1,15 @@
+﻿Build started 6/12/2018 10:56:31 PM.
+     1>Project "D:\LnT_DIP_Projects\CPPTraining\CPPTraining\CPPTraining\CPPTraining.vcxproj" on node 2 (Build target(s)).
+       Project file contains ToolsVersion="12.0". This toolset may be unknown or missing, in which case you may be able to resolve this by installing the appropriate version of MSBuild, or the build may have been forced to a particular ToolsVersion for policy reasons. Treating the project as if it had ToolsVersion="4.0". For more information, please see http://go.microsoft.com/fwlink/?LinkId=291333.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Test.cpp
+         Test.cpp
+     1>d:\lnt_dip_projects\cpptraining\cpptraining\cpptraining\test.cpp(11): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\LnT_DIP_Projects\CPPTraining\CPPTraining\Debug\CPPTraining.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\LnT_DIP_Projects\CPPTraining\CPPTraining\Debug\CPPTraining.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\LnT_DIP_Projects\CPPTraining\CPPTraining\Debug\CPPTraining.lib" /MACHINE:X86 Debug\Test.obj
+         CPPTraining.vcxproj -> D:\LnT_DIP_Projects\CPPTraining\CPPTraining\Debug\CPPTraining.exe
+     1>Done Building Project "D:\LnT_DIP_Projects\CPPTraining\CPPTraining\CPPTraining\CPPTraining.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.81
